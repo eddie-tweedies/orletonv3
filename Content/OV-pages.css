@@ -1,0 +1,159 @@
+body	{ font-size:14px; font-family:Verdana,Arial,Helvitica,sans-serif; color:black;  
+			background-color:/*blue*/white; /*background-image:url("/Images/OV-Background-g.jpg")*/; 
+            vertical-align:top; padding: 30px 15px 20px; max-width:1060px ; margin:0 auto; line-height:1.2;  }
+
+h1		{ font-weight:bold; line-height:2; font-size:1.5rem; }
+h2		{ font-size:0.75rem }
+h3		{ font-weight:bold; text-decoration:underline; }
+h4		{ font-weight:bold; font-size:1.2rem }
+h5		{ font-weight:bold; font-size:0.875rem; }
+h6		{ font-weight:bold; font-size:1.25rem; }
+hr		{ clear:both; margin-top:5px; margin-bottom:5px; color:black}
+td		{ vertical-align:top }
+b,p,dt,dd    { vertical-align:top }
+li      { vertical-align: top; padding-bottom:8px }
+p				{ margin-right:10px; }
+a				{ font-weight:bold; color:blue; text-decoration:underline }
+a:link  a:visited    	{ color:blue;  }
+a:active		{ color:White  }
+a:hover			{ color:Red;   }
+.underline		{ text-decoration:underline }
+.liul			{ text-decoration:underline }
+.Boxout { vertical-align: top; font-size: 1em; padding: 4px; margin-bottom:10px; margin-right: 10px; 
+			 border: blue 2px dotted; }
+.piccolhead, .pichead, .piclink	
+			{ float:left; width:110px;	text-align:center; font-weight:bold; }
+.piccolhead	{ text-decoration:underline }
+.piclink, .pichead	
+			{ vertical-align:top; }
+.pichead	{ color:blue; text-transform:uppercase }
+.photolink	{ float:left; text-align:center; vertical-align:top; }
+.nopadding  { padding: 0; }
+
+.PriceList { width: 90%; margin-right: 10px }
+	.PriceList th {	font-weight: normal;  text-align: left; vertical-align: top; }
+	.PriceList tr {	height: 1.2rem; }
+	.PriceList td { text-align: left; font-weight: normal; vertical-align: top; }
+.pr-c1		{ width: 150px }
+.pr-c2		{ width: 60px }
+.pr-c3		{ width: 160px }
+.pr-c4		{ width: 70px }
+.pr-c6		{ width: 60px; text-align: right }
+.pr-c7		{ text-align: right  }
+
+
+img, .imglink img, .piclink img, a img, .PhotoContainer img
+			{ border:3px solid lightgray; -webkit-border-radius: 14px ; -moz-border-radius: 14px ; border-radius: 14px; }
+a img	{ margin: 5px}
+td img	{ margin-right:10px; margin-bottom:10px;}
+
+iframe	{ border:0; font-weight:bold }
+
+.imglink img:hover, .piclink img:hover, a image:hover  
+			  { border: 3px solid darkred }
+.MainText     { margin-right: 10px;}
+.MainCentred  { margin-right: 10px auto; text-align: center; }
+.MainTextLeft { float:left; max-width: 800px }
+.ListingItem  { padding: 2px 2px 6px 2px; clear:both; margin-top:0; }
+.ListingLeft  { float: left; height: auto; width: 70%; }
+.Li
+.ListingRight { margin-left: 650px; height: auto; width: 25%}
+.topleft      { width: 10%; text-align: left; }
+.topleft img  { border: none; }
+.topright     { width: 15%; text-align: left; border:none;}
+/*.topright a { width: 10%; }*/ /*.topright p { color:gray }*/ /*.topright img { border:none; }*/
+/*.fb-badge     { width: 20% }*/
+.fb-imgsmall  { height:160px }
+.homeimg      { height: 150px; width: 200px; }
+.desc		{ float:left; width:320px;  text-align:left  ; vertical-align:top }
+.bold		{ font-weight:bold }
+.center		{ text-align:center }
+.italic	    { font-style:italic }
+.red		{ color:Red }	.blue	{ color:blue }	.teal  { color:teal }	.pink {color:deeppink}
+.width10    { width:10% }	.width15    { width:15%   }	.width20    { width:20%   }
+.width30    { width:30% }	.width100   { width:100px }	.width140   { width:140px }	.width250   { width:250px }
+.pccol0		{ width:300px }	.pccol1		{ width:200px }	.pccol2		{ width:80px }	.pccol3		{ width:100px }
+.hidden     { display:none}
+.clearboth, .FooterBreak	{ clear: both; } 
+.topsecond, .topheading  	{ text-align:center; font-weight:bold; margin-top:0; margin-bottom:0 }
+.topheading		{ font-size:30pt; }
+.FooterBreak	{ margin-bottom: 34px; margin-top: 6px; position: relative; height: 1%; margin-left: 0; }
+
+.textbox	{ vertical-align:top }
+.copyright  { font-size:8pt; color:gray; }
+
+.dial105	{ background-color:black; Color:yellow; }
+.shophours  { width:330px;	text-align:right;	margin-right:5px; }
+
+.glowingtabs    { float:left; width:100%; font-size: 1.4em; line-height:normal; border-bottom: 2px solid #c9e6b0; /*Add borderstrip to bottom of menu*/ }
+.glowingtabs ul { list-style-type: none; margin:0; margin-left: 2px; /*Left offset of entire tab menu relative to page was 5*/ padding:0; }
+.glowingtabs li { display:inline; margin:0; padding:0; }
+.glowingtabs a  { float:left; background:url(GT-img/glowtab-left.gif) no-repeat left top; margin:2px; text-decoration:none;
+	margin-right: 2px; padding:0 0 0 6px;  }
+.glowingtabs a span{ float:left; display:block; background:url(GT-img/glowtab.gif) no-repeat right top;
+	padding: 4px 8px 2px 3px; font-weight:bold; color:#3B3B3B; }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+/*.glowingtabs a span {float:none;}*/ /* End IE5-Mac hack */
+
+.glowingtabs a:hover span { color: /*black*/red }
+.glowingtabs li.selected a{ /*Selected Tab style*/
+	background-position:0 -82px; /*Shift background image up to start of 2nd tab image*/ }
+.glowingtabs li.selected a span{ /*Selected Tab style*/
+	background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
+	color: black; }
+.glowingtabs a:hover, .glowingtabs li.selected a:hover{ /*onMouseover style*/
+	background-position:0 -82px; /*Shift background image up to start of 2nd tab image*/ }
+.glowingtabs a:hover span, .glowingtabs li.selected a:hover span{ /*onMouseover style*/
+	background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/ }
+/* # Style for Drop Down Menu # */
+.dropmenudiv_d {
+    position: absolute;
+    top: 0;
+    border: 1px solid #c9e6b0; /*THEME CHANGE HERE dcc208*/
+    border-width: 0 1px;
+    font: normal 1.2em /*1.0em*/ /*12px*/ Verdana;
+    line-height: 1.3em /*1.2em*/ /*18px*/;
+    z-index: 100;
+    background-color: white/*#c9e6b0*/; /*width: 200px;*/
+    visibility: hidden;
+}
+.dropmenudiv_d a{ width: auto; display: block; text-indent: 5px;
+    border: 0 solid #c9e6b0  /*#f8d198*/; /*THEME CHANGE dcc208*/
+    border-bottom-width: 2px; padding: 2px 0; padding-right:10px; text-decoration: none; color: black; }
+* html .dropmenudiv_d a{ /*IE only hack*/ width: 100%; }
+.dropmenudiv_d a:hover{ /*THEME CHANGE -fef8c8-c6d5ff*/ /*background-color: lightgreen;*/ color:red}
+
+/* Old Styles - may be needed */
+
+.xcol1  { width: 50px; }		
+.xcol2  { width: 50px; }		
+.xcol3  { width: 550px;}
+
+
+
+/* ## Responsive CSS ## */
+@media screen and (max-width: 480px) {
+  body         { max-width: 480px}
+}
+@media screen and (max-width: 650px) {
+  body         { max-width: 650px}
+  .glowingtabs { border-bottom-width: 0; font-size: 1.3em; line-height:1.5em; }
+  .dropmenudiv_d { font: normal 1.3em Verdana; line-height:1.5em;}
+  .homeimg     { width:150px }
+  .mobileoff   { display:none }
+  .topright    { display:none }
+  .topleft     { display:none }
+  .headingoff  { display:none }
+  .topheading  { font-size:18pt; }
+  a			   {font-size:1.3em}
+  .mapDiv	   { display:none }
+}
+@media screen and (min-width: 651px) and (max-width: 800px) {
+  body         { max-width: 800px}
+  .mobileoff   { display:none }
+  .homeimg     { width:250px }
+  .topright    { display:none }
+  .topheading  { font-size:20pt; }
+  a			   { font-size:1.2em}
+}
+

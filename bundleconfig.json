@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "Content/OV-pages.min.css",
+    "inputFiles": [
+      "Content/OV-pages.min.css"
+    ]
+  }
+  //{
+  //  "outputFileName": "Content/OV-pages.min.css",
+  //  "inputFiles": [
+  //    "Content/OV-pages.css"
+  //  ]
+  //}
+]

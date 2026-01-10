@@ -1,0 +1,23 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
+    CodeBehind="Coffee.aspx.cs" Inherits="VillageLife_Clubs_Coffee" %>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="main" Runat="Server">
+
+<h1>Orleton Coffee Morning</h1>
+<p>Villagers meet every Wednesday for a cofffee and cake at the village hall from 10.30 - 12.00. 
+    We are a relaxed informal group with no membership fees. 
+    Pop along and meet your friends and make new ones too. 
+    We have a good choice of freshly baked homemade goodies including gluten & dairy free, all slices are currently only £1 each. 
+    Beverages including Fairtrade are £1 for a cuppa with a free refill.</p>
+<p>In October 2022 we were awarded a 5* food hygiene rating from Herefordshire council. 
+    In 2022 we also held our first Fundraising Macmillan Coffee Morning raising over £1,000 thanks to the 
+    support of the villagers and local businesses.</p>
+<p>On the last Wednesday of the month we have the visiting library which is also run by our volunteers.</p> 
+<p>Please note that we do not open throughout August and we also have a week off during the Christmas holidays.</p>
+<p>If any local groups would like to run a fundraising coffee morning, then please don't hesitate to get in touch 
+    for more information.</p>
+<p>If you want further information please contact Cathy Hardwick (chair) on 01568 780238 or email at
+    <a href="mailto:cathy.hardwick@hotmail.co.uk">cathy.hardwick@hotmail.co.uk</a></p>
+</asp:Content>
+
+

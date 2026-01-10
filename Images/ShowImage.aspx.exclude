@@ -1,0 +1,34 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
+    CodeFile="ShowImage.aspx.cs" Inherits="Images_ShowImage" %>
+
+<%--Async="true"--%>
+<asp:Content ID="Content3" ContentPlaceHolderID="main" runat="Server">
+    <ItemTemplate><br />
+      <div class="clearboth"></div>
+      <div class="fltleft img-responsive">
+            <img class="img-responsive" style="max-width:100%; margin:auto; display:inline; /*width:100%;*/ "
+					src='<%# String.Format("/images/Bears/" + Eval("PictureL") + ".jpg") %>' alt="Tweedies" />
+      </div>
+      <div style="float: left; margin-left:20px; max-width:100%; max-height:100%; display:inline;">
+            <asp:Label ID="AvailableLabel" runat="server" Text='<%# Eval("Available") %>' CssClass="blue" /><br />
+
+            <%--<asp:Label ID="DescriptionPara1Label2" runat="server" Text='<%# Eval("DescriptionPara1") %>' 
+                 CssClass="descsingle" />--%>
+
+            <asp:Label ID="Label1" runat="server"  Text='<%# String.Format(
+                Eval("DescriptionPara1") + "<br /><br />" + Eval("NameUnique") + " is one of the " + Eval("ProductGroup") + " " + Eval("ProductType")
+                ) %>' CssClass="descsingle" />
+
+      </div>
+    </ItemTemplate>
+  </asp:DataList>
+
+<%--<p>Enter your name:
+<asp:TextBox id="txt1" runat="server" />
+<asp:Button OnClick="btnSubmit" Text="Submit" runat="server" />
+<asp:Label id="lbl1" runat="server" /></p>--%>
+
+
+
+</asp:Content>
+

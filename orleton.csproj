@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D5C1CE2-6024-4951-8EA6-092A49C54C6C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>orleton</RootNamespace>
+    <AssemblyName>orleton</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IncludeSetACLProviderOnDestination>False</IncludeSetACLProviderOnDestination>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="OrletonConnectionAccessDB-Deployment" Order="1">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Provider=Microsoft.ACE.OLEDB.12.0%3bData Source=|DataDirectory|Orleton.accdb" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\OrletonConnectionAccessDB-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+    <UseWinFormsOutOfProcDesigner>False</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>False</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Orleton.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Businesses\Businesses.aspx" />
+    <Content Include="Businesses\Maisie-Rhosan-s.jpg" />
+    <Content Include="Businesses\Orleton-Store.jpg" />
+    <Content Include="Businesses\PostOffice.aspx" />
+    <Content Include="Businesses\SWoodLogo2-s.jpg" />
+    <Content Include="Businesses\TV-Electrical-s.jpg" />
+    <Content Include="Churches\Churches.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\GT-img\glowtab-left.gif" />
+    <Content Include="Content\GT-img\glowtab.gif" />
+    <Content Include="Content\OV-pages.css" />
+    <Content Include="Content\OV-pages.min.css">
+      <DependentUpon>OV-pages.css</DependentUpon>
+    </Content>
+    <Content Include="Content\OV-pages.min.min.css">
+      <DependentUpon>OV-pages.min.css</DependentUpon>
+    </Content>
+    <Content Include="History\ChurchCarvings.jpg" />
+    <Content Include="History\History.aspx" />
+    <Content Include="History\TheMortimersArticle.jpg" />
+    <Content Include="IISProfile.pubxml.user" />
+    <Content Include="Images\Businesses\Grannys_Cottage_at_Perseverance_Cottage.jpg" />
+    <Content Include="Images\Businesses\Maidenhead-1-m.jpg" />
+    <Content Include="Images\Businesses\Maidenhead.png" />
+    <Content Include="Images\Businesses\Orleton_Post_Office_and_Stores_in_Snow_Feb_2007.jpg" />
+    <Content Include="Images\Businesses\PostOffice.jpg" />
+    <Content Include="Images\Businesses\Small\Grannys_Cottage_at_Perseverance_Cottage.jpg" />
+    <Content Include="Images\Businesses\Small\Maidenhead-1-s.jpg" />
+    <Content Include="Images\Businesses\Small\Orleton_Post_Office_and_Stores_in_Snow_Feb_2007.jpg" />
+    <Content Include="Images\Businesses\Small\photoF-s.jpg" />
+    <Content Include="Images\Businesses\Small\PostOffice.jpg" />
+    <Content Include="Images\Businesses\Small\ShopAndPOCrew.jpg" />
+    <Content Include="Images\Businesses\Small\TheBoot-m.jpg" />
+    <Content Include="Images\Businesses\TheBoot-m.jpg" />
+    <Content Include="Images\Businesses\TheBoot-s.jpg" />
+    <Content Include="Images\Clubs\Sunflower.jpg" />
+    <Content Include="Images\Covid-19\hfdscouncil-covid-letter-1-s.jpg" />
+    <Content Include="Images\Covid-19\hfdscouncil-covid-poster-1-s.jpg" />
+    <Content Include="Images\Covid-19\NHS-Letter-email-s.jpg" />
+    <Content Include="Images\Covid-19\NHS-Letter-email.jpg" />
+    <Content Include="Images\Leisure\Bircher\Bircher_bales.jpg" />
+    <Content Include="Images\Leisure\Bircher\Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Bircher_from_Yelds_Hill.jpg" />
+    <Content Include="Images\Leisure\Bircher\Bircher_views_of_Herefordshire_3.jpg" />
+    <Content Include="Images\Leisure\Bircher\Hay_bales _on_Bircher.jpg" />
+    <Content Include="Images\Leisure\Bircher\Pony_on_Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Sheep_on_Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Bircher_bales.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Bircher_from_Yelds_Hill.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Bircher_views_of_Herefordshire_3.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Hay_bales _on_Bircher.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Pony_on_Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\Sheep_on_Bircher_Common.jpg" />
+    <Content Include="Images\Leisure\Bircher\Small\View_of_Orleton_from_Bircher.jpg" />
+    <Content Include="Images\Leisure\Bircher\View_of_Orleton_from_Bircher.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Mortimer_Forest_walk_1.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Mortimer_Forest_walk_2.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Mortimer_Trail_Book-s.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Mortimer_Trail_Map.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Small\Mortimer_Forest_walk_1.jpg" />
+    <Content Include="Images\Leisure\Mortimer\Small\Mortimer_Forest_walk_2.jpg" />
+    <Content Include="Images\Leisure\Walks\Orleton-Walk-1-s.jpg" />
+    <Content Include="Images\Leisure\Walks\Orleton-Walk-2-s.jpg" />
+    <Content Include="Images\Leisure\Walks\Orleton-Walk-3-s.jpg" />
+    <Content Include="Images\Leisure\Walks\ow3a.jpg" />
+    <Content Include="Images\Ludlow\Ludlow_Castle_and_Clee_Hill_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\Ludlow\Ludlow_Castle_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\Ludlow\Ludlow_St_Lawrences_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\Ludlow\Small\Ludlow_Castle_and_Clee_Hill_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\Ludlow\Small\Ludlow_Castle_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\Ludlow\Small\Ludlow_St_Lawrences_from_Mortimer_Trail.jpg" />
+    <Content Include="Images\OV-Background-g.jpg" />
+    <Content Include="Images\Parish_Plan\Orleton_Parish_map.jpg" />
+    <Content Include="Images\Parish_Plan\Orleton_road_sign.jpg" />
+    <Content Include="Images\Parish_Plan\Orleton_war_memorial.jpg" />
+    <Content Include="Images\Parish_Plan\Parish_Plan_logo.png" />
+    <Content Include="Images\Parish_Plan\Parish_Plan_logo_large.jpg" />
+    <Content Include="Images\Parish_Plan\St_Georges_Church.jpg" />
+    <Content Include="Images\Parish_Plan\VH-Logo.png" />
+    <Content Include="Images\Parish_Plan\View_from_Rise_Hill.jpg" />
+    <Content Include="Images\School\School.jpg" />
+    <Content Include="Images\School\Small\School.jpg" />
+    <Content Include="Images\showpicview.aspx" />
+    <Content Include="Images\Village\AerialView.jpg" />
+    <Content Include="Images\Village\Church.jpg" />
+    <Content Include="Images\Village\ChurchyardInSnow.jpg" />
+    <Content Include="Images\Village\KingsRoadInSnow.jpg" />
+    <Content Include="Images\Village\Map.jpg" />
+    <Content Include="Images\Village\Memorial Garden sign.jpg" />
+    <Content Include="Images\Village\New 490 Bus Timetable.jpg" />
+    <Content Include="Images\Village\Oil-Scheme-P1.jpg" />
+    <Content Include="Images\Village\Oil-Scheme-P2.jpg" />
+    <Content Include="Images\Village\OldSchoolhouseInSnow.jpg" />
+    <Content Include="Images\Village\Orleton-Icon.ico" />
+    <Content Include="Images\Village\Orleton-Icon.jpg" />
+    <Content Include="Images\Village\OrletonHouse.jpg" />
+    <Content Include="Images\Village\Orleton_Logo.gif" />
+    <Content Include="Images\Village\Orleton_Recreation_Ground_in_Snow_Feb_2007.jpg" />
+    <Content Include="Images\Village\ScareCrow Winners 2018.jpg" />
+    <Content Include="Images\Village\Small\AerialView.jpg" />
+    <Content Include="Images\Village\Small\Church.jpg" />
+    <Content Include="Images\Village\Small\ChurchyardInSnow.jpg" />
+    <Content Include="Images\Village\Small\KingsRoadInSnow.jpg" />
+    <Content Include="Images\Village\Small\Map.jpg" />
+    <Content Include="Images\Village\Small\NeighbourhoodWatchSign.jpg" />
+    <Content Include="Images\Village\Small\OldSchoolhouseInSnow.jpg" />
+    <Content Include="Images\Village\Small\OrletonHouse.jpg" />
+    <Content Include="Images\Village\Small\Orleton_Recreation_Ground_in_Snow_Feb_2007.jpg" />
+    <Content Include="Images\Village\Small\WarMemorial.jpg" />
+    <Content Include="Images\Village\Small\YeOldeHouse.jpg" />
+    <Content Include="Images\Village\WarMemorial.jpg" />
+    <Content Include="Images\Village\YeOldeHouse.jpg" />
+    <Content Include="Images\Village_Hall\CalendarKeyLarge.png" />
+    <Content Include="Images\Village_Hall\CalendarKeySmall.png" />
+    <Content Include="Images\Village_Hall\John Challis-s.jpg" />
+    <Content Include="Images\Village_Hall\John Challis.jpg" />
+    <Content Include="Images\Village_Hall\Large Hall Portrait-s.png" />
+    <Content Include="Images\Village_Hall\Large Hall Portrait.jpg" />
+    <Content Include="Images\Village_Hall\Orleton village hall.jpg" />
+    <Content Include="Images\Village_Hall\OVH-Logo-L.png" />
+    <Content Include="Images\Village_Hall\OVH-Logo-s.png" />
+    <Content Include="Images\Village_Hall\OVH-Logo.png" />
+    <Content Include="Images\Village_Hall\Playground 1.jpg" />
+    <Content Include="Images\Village_Hall\Playground 2.jpg" />
+    <Content Include="Images\Village_Hall\Small\Orleton village hall.jpg" />
+    <Content Include="Images\Village_Hall\Small\Playground 1.jpg" />
+    <Content Include="Images\Village_Hall\Small\Playground 2.jpg" />
+    <Content Include="Images\Village_Hall\Small\Stage in main hall.jpg" />
+    <Content Include="Images\Village_Hall\Small\Table tennis club in the main hall.JPG" />
+    <Content Include="Images\Village_Hall\Small\Village gathering in small hall.JPG" />
+    <Content Include="Images\Village_Hall\Small\Village hall car park.jpg" />
+    <Content Include="Images\Village_Hall\Stage in main hall.jpg" />
+    <Content Include="Images\Village_Hall\Table tennis club in the main hall.JPG" />
+    <Content Include="Images\Village_Hall\Village gathering in small hall.JPG" />
+    <Content Include="Images\Village_Hall\Village hall car park.jpg" />
+    <Content Include="Images\Village_Hall\Village_Hall_Layout.png" />
+    <Content Include="Images\Village_Hall\Wedding\IMGP3250.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\IMGP3257.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\IMGP3258.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\IMGP3259.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\Main hall set up for wedding.jpg" />
+    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3250.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3257.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3258.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3259.JPG" />
+    <Content Include="Images\Village_Hall\Wedding\Small\Main hall set up for wedding.jpg" />
+    <Content Include="Leisure\BakersArms.jpg" />
+    <Content Include="Leisure\Orleton_walks.aspx" />
+    <Content Include="Leisure\ShowWalk.aspx" />
+    <Content Include="Leisure\Where_to_eat.aspx" />
+    <Content Include="Magazine\Booklet.aspx" />
+    <Content Include="Magazine\Magazine Previous Copy.aspx" />
+    <Content Include="Magazine\Magazine.aspx" />
+    <Content Include="Map\Map.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Memorial_Gardens\Memorial_Gardens.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\dropdowntabs.js" />
+    <Content Include="Scripts\dropdowntabs.min.js" />
+    <Content Include="Scripts\IsAppleMobile.js" />
+    <Content Include="BookletFiles\Mag December 25 booklet.pdf" />
+    <Content Include="BookletFiles\Mag December 25.pdf" />
+    <Content Include="BookletFiles\Mag Nov 25 booklet.pdf" />
+    <Content Include="BookletFiles\Mag Nov 25.pdf" />
+    <Content Include="BookletFiles\Welcome to Orleton Sept 2025 booklet.pdf" />
+    <Content Include="BookletFiles\Welcome to Orleton Sept 2025.pdf" />
+    <Content Include="BookletFiles\Mag January 2026 booklet.pdf" />
+    <Content Include="BookletFiles\Mag January 2026.pdf" />
+    <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Showpic.aspx" />
+    <Content Include="Site.master" />
+    <Content Include="Images\Clubs\2023 10 history group.pdf" />
+    <Content Include="Images\Covid-19\COR_A4_poster_HFD3735_COVID.pdf" />
+    <Content Include="Images\Covid-19\HerefordshireCouncil-Useful Information.pdf" />
+    <Content Include="Images\Covid-19\IMG_2339.jpg.exclude" />
+    <Content Include="Images\Covid-19\resident letter 20.03.2020_CX final version for printing.pdf" />
+    <Content Include="Images\Leisure\Mortimer\Mortimer_Trail_Book.jpg.exclude" />
+    <Content Include="Images\Parish_Plan\Orleton_Parish_Plan.pdf" />
+    <Content Include="Images\Recycling leaflet 2016 e-friendly.pdf" />
+    <Content Include="Images\Village\Cyber Crime Guidance.pdf" />
+    <Content Include="Images\Village_Hall\LOGO.docx.exclude" />
+    <Content Include="Images\Village_Hall\Plan of the hall.pdf" />
+    <Content Include="Parish_Council\Garden bonfires - Information.pdf" />
+    <Content Include="History\ON THE TRAIL OF THE MORTIMERS.docx" />
+    <Content Include="Leisure\Orleton Walks 1A.pdf" />
+    <Content Include="Leisure\Orleton Walks 1B.pdf" />
+    <Content Include="Leisure\Orleton Walks 2A.pdf" />
+    <Content Include="Leisure\Orleton Walks 2B.pdf" />
+    <Content Include="Leisure\Orleton Walks 3A.pdf" />
+    <Content Include="Leisure\Orleton Walks 3Az.pdf" />
+    <Content Include="Leisure\Orleton Walks 3B.pdf" />
+    <None Include="bundleconfig.json" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="IISProfile.pubxml" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Surgery\Surgery.aspx" />
+    <Content Include="VillageLife\Clubs\Clubs.aspx" />
+    <Content Include="VillageLife\Clubs\JuniorFootball.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P1-s.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P1.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P2-s.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P2.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P3-s.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P3.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P4-s.jpg" />
+    <Content Include="VillageLife\OGNS\OGNS-2025-P4.jpg" />
+    <Content Include="VillageLife\Schools\Schools.aspx" />
+    <Content Include="Village_Hall\Bookings.aspx" />
+    <Content Include="Village_Hall\Hire_of_items.aspx" />
+    <Content Include="Village_Hall\Layout.aspx" />
+    <Content Include="Village_Hall\Location_Map.aspx" />
+    <Content Include="Village_Hall\Price_list.aspx" />
+    <Content Include="Village_Hall\Ts-and-Cs.aspx" />
+    <Content Include="Village_Hall\VillageHall.aspx" />
+    <Content Include="Village_Hall\Wedding\image295.jpg" />
+    <Content Include="Village_Hall\Wedding\image298.jpg" />
+    <Content Include="Village_Hall\Wedding\small\IMGP3259.JPG" />
+    <Content Include="Village_Hall\Wedding\small\Main hall set up for wedding.jpg" />
+    <Content Include="Village_Hall\Wedding\Wedding.aspx" />
+    <Content Include="Village_Hall\Whats_On.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Businesses\Businesses.aspx.cs">
+      <DependentUpon>Businesses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Businesses\PostOffice.aspx.cs">
+      <DependentUpon>PostOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Churches\Churches.aspx.cs">
+      <DependentUpon>Churches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Images\showpicview.aspx.cs">
+      <DependentUpon>showpicview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leisure\Orleton_walks.aspx.cs">
+      <DependentUpon>Orleton_walks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leisure\ShowWalk.aspx.cs">
+      <DependentUpon>ShowWalk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leisure\ShowWalk.aspx.designer.cs">
+      <DependentUpon>ShowWalk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leisure\Where_to_eat.aspx.cs">
+      <DependentUpon>Where_to_eat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magazine\Booklet.aspx.cs">
+      <DependentUpon>Booklet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magazine\Magazine Previous Copy.aspx.cs">
+      <DependentUpon>Magazine Previous Copy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magazine\Magazine Previous Copy.aspx.designer.cs">
+      <DependentUpon>Magazine Previous Copy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Magazine\Magazine.aspx.cs">
+      <DependentUpon>Magazine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magazine\Magazine.aspx.designer.cs">
+      <DependentUpon>Magazine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Map\Map.aspx.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Memorial_Gardens\Memorial_Gardens.aspx.cs">
+      <DependentUpon>Memorial_Gardens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Showpic.aspx.cs">
+      <DependentUpon>Showpic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Surgery\Surgery.aspx.cs">
+      <DependentUpon>Surgery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VillageLife\Clubs\Clubs.aspx.cs">
+      <DependentUpon>Clubs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VillageLife\Schools\Schools.aspx.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Bookings.aspx.cs">
+      <DependentUpon>Bookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Hire_of_items.aspx.cs">
+      <DependentUpon>Hire_of_items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Layout.aspx.cs">
+      <DependentUpon>Layout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Location_Map.aspx.cs">
+      <DependentUpon>Location_Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Price_list.aspx.cs">
+      <DependentUpon>Price_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Ts-and-Cs.aspx.cs">
+      <DependentUpon>Ts-and-Cs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\VillageHall.aspx.cs">
+      <DependentUpon>VillageHall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Wedding\Wedding.aspx.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Village_Hall\Whats_On.aspx.cs">
+      <DependentUpon>Whats_On.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\zUnused\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="VillageLife\Clubs\Coffee.aspx.cs.exclude" />
+    <Content Include="VillageLife\Clubs\Coffee.aspx.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P1-s.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P1.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P2-s.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P2.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P3-s.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P3.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P4-s.jpg.exclude" />
+    <Content Include="VillageLife\OGNS\OGNS-P4.jpg.exclude" />
+    <Content Include="Surgery\Performing a rescue.pdf" />
+    <Content Include="Village_Hall\OVH Facilities Equipment Tech Data 2024.pdf" />
+    <Content Include="Village_Hall\Rates non-regular users 2024-2025.pdf" />
+    <Content Include="Village_Hall\Village Hall governing document 2016.pdf" />
+    <Content Include="Village_Hall\Booking package 2024.pdf" />
+    <Content Include="Village_Hall\Rates 2025-2026.pdf" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56155</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
