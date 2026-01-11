@@ -74,7 +74,7 @@
  		<div class="col-md-3 col-sm-3 col-xs-11">
            <br /><strong>01568 780398</strong>
 			  <br /><a href="mailto:jenkinsam@sky.com">jenkinsam@sky.com</a>
-			  <br /><a href="http://www.AlfJenkins.com" target="_blank">www.AlfJenkins.com</a>
+			  <%--<br /><a href="http://www.AlfJenkins.com" target="_blank">www.AlfJenkins.com</a>--%>
         </div>
     </div>
 <hr />
@@ -130,7 +130,7 @@
             <br /><strong>01568 780971</strong>
             <br /><strong>07968 874 088</strong>
             <br /><a href="mailto:james@jgmsurfacing.co.uk">jimmy@jgmsurfacing.co.uk</a>
-            <br /><a href="http://www.jgmsurfacing.co.uk" target="_blank">www.jgmsurfacing.co.uk</a> 
+            <%--<br /><a href="http://www.jgmsurfacing.co.uk" target="_blank">www.jgmsurfacing.co.uk</a> --%>
         </div>
     </div>
 <hr />	
@@ -144,7 +144,7 @@
  		<div class="col-md-3 col-sm-3 col-xs-11">
             <br /><%--<strong>01568 780843</strong>--%>
 				<a href="mailto:nicolajhaigh@btinternet.com">nicolajhaigh@btinternet.com</a>
-				<br /><a href="http://www.nicolahaighartist.co.uk" target="_blank">www.nicolahaighartist.co.uk</a>
+				<%--<br /><a href="http://www.nicolahaighartist.co.uk" target="_blank">www.nicolahaighartist.co.uk</a>--%>
         </div>
     </div>
 <hr />
@@ -159,7 +159,7 @@
  		<div class="col-md-3 col-sm-3 col-xs-11">
             <br /><strong>07930-353-118</strong>
             <br /><a href="mailto:sophie@healing-energy.net">sophie@healing-energy.net</a><br />
-            <a href="http://www.healing-energy.net" target="_blank">www.sophieatkinson.co.uk</a>
+            <%--<a href="http://www.healing-energy.net" target="_blank">www.sophieatkinson.co.uk</a>--%>
         </div>
     </div>
 <hr />

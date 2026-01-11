@@ -41,7 +41,7 @@
         </p>
         <p>
             <span class="red bold">Garden Waste Collection<br /></span>
-            <span class="newstext">There is a fortnightly garden waste collection. <br />It costs £5 / month</span><br />
+            <span class="newstext">There is a fortnightly garden waste collection. <br />It costs £60 p.a.</span><br />
             <span class="newslink""><a href="\News.aspx#GardenWaste" target="_parent">More information here.</a></span>
         </p>
         <p>

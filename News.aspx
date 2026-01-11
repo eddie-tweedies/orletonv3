@@ -44,7 +44,7 @@
         Warm, affordable homes are vital to health and quality of life – and 
         Keep Herefordshire Warm is here to help make the winter months more comfortable.</p>
   <p>Call their friendly advisors for free on <span class="red bold">0800 677 1432</span>, or visit 
-        <a href="https://www.keepherefordshirewarm.co.uk" target="_blank">www.keepherefordshirewarm.co.uk</a></p>
+        <a href="https://www.herefordshire.gov.uk/home-energy" target="_blank">https://www.herefordshire.gov.uk/home-energy</a></p>
 
 <h4 class ="red italic">Oil / LPG Fuel Buying Scheme</h4>
 <p class ="red">Do you want to get cheaper heating oil or LPG?</p>
@@ -61,9 +61,10 @@
        All you have to do is tell us how much oil you need (minimum of 500 litres) and we will do the rest.  Normally, payment is after delivery.</p>
 
   <h4 ID="GardenWaste" class="red italic">Garden Waste Collection.</h4>
-  <p>There is now a paid for fortnightly garden waste collection in Herefordshire. It costs about £5 per month and uses 240l brown bins.</p>
-  <p>It is called the Green Waste Club and further details can be seen at 
-      <a href="http://www.greenwasteclub.co.uk" target="_blank">www.greenwasteclub.co.uk</a></p>
+  <p>There is now a new paid for fortnightly garden waste collection in Herefordshire. It costs about £60 per year and uses 240l brown bins.</p>
+  <p>It is run by Herefordshire Council and further details can be seen at 
+      <a href="https://www.herefordshire.gov.uk/rubbish-and-recycling/rubbish-collections/garden-waste-and-composting/garden-waste-collection-service/" target="_blank">
+          this website.</a></p>
 
   <div class="dial105">
 	<h6 class="dial105">Power Cut? - Dial 105</h6>
