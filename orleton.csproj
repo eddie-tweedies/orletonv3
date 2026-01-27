@@ -304,6 +304,8 @@
     <Content Include="BookletFiles\Welcome to Orleton Sept 2025.pdf" />
     <Content Include="BookletFiles\Mag January 2026 booklet.pdf" />
     <Content Include="BookletFiles\Mag January 2026.pdf" />
+    <Content Include="BookletFiles\Mag February 2026 booklet.pdf" />
+    <Content Include="BookletFiles\Mag February 2026.pdf" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />

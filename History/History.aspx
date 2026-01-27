@@ -9,7 +9,7 @@
 	from medieval times (and earlier!) to the present day. We're not academic historians but we do do our own research, 
 	under the guidance of professionals such as the staff at Herefordshire Archives service.</p>
 <p><span class="newslink blue bold">
-	<a href="https://stgeorgesorleton.org.uk/journal/Activities/Orleton%20History%20Group/none/none" target="_blank">
+	<a href="https://stgeorgesorleton.org.uk" target="_blank">
 		You can see more details here.</a></span></p>
 
 <h1>The History of Orleton</h1>

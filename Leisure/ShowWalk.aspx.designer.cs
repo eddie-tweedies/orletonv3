@@ -21,7 +21,7 @@ namespace orleton.Leisure
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList TopTextID;
+        protected global::System.Web.UI.WebControls.FormView TopTextID;
 
         /// <summary>
         /// PhotoDatalistID control.

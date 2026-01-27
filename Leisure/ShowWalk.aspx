@@ -3,13 +3,23 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="main" runat="server">
 
-	<asp:DataList ID="TopTextID" runat="server" DataKeyField="WalkName">
+<asp:FormView ID="TopTextID" runat="server">
+    <ItemTemplate>
+        <%# Eval("WalkHeading") %>
+        <h1><%# Eval("WalkLongName") %></h1>
+        <p class="underline">Click any image to see a larger copy.</p>
+    </ItemTemplate>
+</asp:FormView>
+
+
+
+	<%--<asp:DataList ID="TopTextID" runat="server" DataKeyField="WalkName">
 		<ItemTemplate>
 			<%# Eval("WalkHeading") %>
 			<h1><%# Eval("WalkLongName") %></h1>
 			<p class="underline">Click any image to see a larger copy.</p>
 		</ItemTemplate>
-	</asp:DataList>
+	</asp:DataList>--%>
 
 	<div class="row">
 		<asp:ListView ID="PhotoDatalistID" runat="server" DataKeyField="WalkName" DataKeyNames="ID"
