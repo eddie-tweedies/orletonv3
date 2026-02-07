@@ -25,15 +25,4 @@
 
 </div>
 
-<%--<object data="yourfile.pdf#page=1&zoom=100" type="application/pdf" width="100%" height="600px">--%>
-
-  <%--  <iframe src="/Parish_Council/Welcome to Orleton Sept 2025.pdf" width="600" height="400"></iframe>--%>
-
-
-<%--<div>
-
-<iframe src="https://heyzine.com/flip-book/6b890d3104.html" width="1000" height="800" style="border:none;"></iframe>
-
-</div>--%>
-
 </asp:Content>

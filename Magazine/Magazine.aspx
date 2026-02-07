@@ -16,6 +16,8 @@
    	This is a booklet .pdf document. It will print as a 2-up A5 format on A4 paper.
 	It can be printed double sided.</p>
 
+<%--<p>The February 2026 copy of the Magazine can be found 
+    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20February%202026&MagMonth=February%202026">here</a>.</p>--%>
 <p>The January 2026 copy of the Magazine can be found 
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20January%202026&MagMonth=January%202026">here</a>.</p>
 <p>The December 2025 copy of the Magazine can be found 
@@ -31,18 +33,6 @@
         // Call the function with the server-side variable and inject into DOM
         document.getElementById("magContainer").innerHTML = showThisMag("<%= MagFileName %>");
 </script>
-
-<%--<script>
-    var bIsAppleMobile = fnIsAppleMobile();
-    var htmlcode = "";
-    if (!bIsAppleMobile) {
-        htmlcode += '<object class="objecthidden" width="900" height="1200" type="application/pdf" ';
-        htmlcode += 'data="/BookletFiles/<%= MagFileName%>.pdf#page=1&zoom=80&scrollbar=1&toolbar=0&navpanes=0">';
-        htmlcode += '<p>Unfortunately we cannot display the booklet here.  Please click on the print option links above to show it on a separate page.</p>';
-        htmlcode += '</object >';
-        document.write(htmlcode);
-    }
-</script>--%>
 
 </div>
 

@@ -24,37 +24,6 @@
     document.getElementById("magContainer2").innerHTML = showThisMag("<%= MagFileName %>");
 </script>
 
-<%--<script>
-    function showThisMag(magFile) {
-        const isAppleMobile = fnIsAppleMobile();
-        if (isAppleMobile) {
-            // Return a simple message or alternative link for Apple mobile devices
-            return `<p>PDF viewing is not supported on your device. 
-                Please use the print option links above to open it separately.</p>`;
-        }
-        // Use template literals for cleaner HTML
-        return `
-        <object class="objecthidden" width="900" height="1200" type="application/pdf"
-            data="/Parish_Council/${magFile}.pdf#page=1&zoom=80&scrollbar=1&toolbar=0&navpanes=0">
-            <p>Unfortunately we cannot display the booklet here. 
-                Please click on the print option links above to show it on a separate page.</p>
-        </object>
-        `;
-    }
-</script>--%>
-
-<%--<script>
-    var bIsAppleMobile = fnIsAppleMobile();
-    var htmlcode = "";
-    if (!bIsAppleMobile) {
-        htmlcode += '<object class="objecthidden" width="900" height="1200" type="application/pdf" ';
-        htmlcode += 'data="/Parish_Council/<%= MagFileName %>.pdf#page=1&zoom=80&scrollbar=1&toolbar=0&navpanes=0">';
-        htmlcode += '<p>Unfortunately we cannot display the booklet here.  Please click on the print option links above to show it on a separate page.</p>';
-        htmlcode += '</object >';
-        document.write(htmlcode);
-    }
-</script>--%>
-
 </div>
 
 
