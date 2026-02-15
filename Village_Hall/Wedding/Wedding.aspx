@@ -8,10 +8,10 @@
     <p>Orleton Village Hall is situated in a convenient location in rural Herefordshire between Ludlow and Leominster and can only be fully appreciated with a visit.</p>
     <p>We do hope that you will arrange to see us at your earliest convenience. Appointments for viewing can be arranged for any time of the day.</p>
     <p>The hall can accommodate a wedding party of up to 130 with ample parking in our recently resurfaced car park.</p>
-    <p>The cost of hiring the Hall can be from as little as £350 (Friday evening until Sunday noon) 
+    <p>The cost of hiring the Hall can be from as little as £156 all day (£234 Friday evening until Sunday noon).  
         The hire includes use of tables. chairs, crockery and cutlery. The small hall can be used as a bar area 
         and there is use of what is possibly the best equipped kitchen in North Herefordshire for your caterer. 
-        You are most welcome to add more decoration to personalise the venue. Heating, lighting and sound systems are included in the cost.</p>
+        You are most welcome to add more decoration to personalise the venue. Heating and lighting are included in the cost.</p>
   </div>
   <div class="col-md-4 col-sm-6 col-xs-12">
       <p><img alt="" src="image295.jpg" /></p>

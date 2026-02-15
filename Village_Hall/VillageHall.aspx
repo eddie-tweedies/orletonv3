@@ -15,8 +15,7 @@
         providing hirers with the flexibility to choose either one or both halls. 
         There is also a fully equipped and newly refurbished kitchen with freezer, large chiller cabinet, electric cooker with oven, 
         six burner gas cooker with oven, hot cupboard, instant boiling water, dishwasher, cutlery and crockery.</p>
- 	<p>The Main Hall comfortably seats over 100 people and all tables and chairs are included
-        in the hire cost. This hall also has the added benefit of a large stage with a lighting system, 
+ 	<p>The Main Hall comfortably seats over 100 people and <span>and (unlike some other local halls) <b>all tables and chairs are included in the hire cost</b></span>. This hall also has the added benefit of a large stage with a lighting system, 
 		 a video projector with a large drop-down screen and a sound system with radio microphones.</p>
 	<p>The Small Hall is more suitable for smaller gatherings of up to 40 people and has a small kitchenette area.</p>
 	<p>There is ample parking directly adjacent to the hall and children are catered for
