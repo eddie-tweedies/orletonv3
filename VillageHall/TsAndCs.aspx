@@ -1,15 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
-    CodeBehind="Ts-and-Cs.aspx.cs" Inherits="orleton.Village_Hall.Ts_and_Cs" %>
+    CodeBehind="TsAndCs.aspx.cs" Inherits="orleton.VillageHall.TsAndCs" %>
 
 <asp:Content ID="HomeContent" ContentPlaceHolderID="main" runat="Server">
 
 <script src="/Scripts/IsAppleMobile.js"></script>
-<img src="../Images/Village_Hall/OVH-Logo-s.png" />
+<img src="../Images/VillageHall/OVH-Logo-s.png" />
 <p>&nbsp;</p>
     <h4>Terms and Conditions</h4>
     <p>Use hall is subject to the terms and conditions shown below or via the link below.</p>
     <p>If the terms and conditions below do not display properly, or you wish to print them, please 
-        <a href="/Village_Hall/Booking%20package%202024.pdf" target="_blank">click here</a>
+        <a href="/VillageHall/Booking%20package%202024.pdf" target="_blank">click here</a>
 	    <%--<a href="2017%20-%2004%20Terms%20and%20Conditions.pdf" target="_blank">click here</a> --%>
         to view them on a separate page.</p>
   <div>
@@ -17,7 +17,7 @@
 
 <p id="BookletContainer"></p>
 <script>
-    document.getElementById("BookletContainer").innerHTML = showThisMag("/Village_Hall/Booking%20package%202024");
+    document.getElementById("BookletContainer").innerHTML = showThisMag("/VillageHall/Booking%20package%202024");
 </script>
 
 

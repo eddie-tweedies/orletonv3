@@ -12,7 +12,7 @@
 			 <table style="width:330px">
 				  <tr><td>Monday</td><td>8.30am-1.00pm</td><td>2.00pm-5.00pm</td></tr>
 				  <tr><td>Tuesday</td><td>8.30am-1.00pm</td><td>Closed</td></tr>
-				  <tr><td>Wednesnday</td><td>8.30am-1.00pm</td><td>2.00pm-5.00pm</td></tr>
+				  <tr><td>Wednesday</td><td>8.30am-1.00pm</td><td>2.00pm-5.00pm</td></tr>
 				  <tr><td>Thursday</td><td>8.30am-1.00pm</td><td>2.00pm-5.00pm</td></tr>
 				  <tr><td>Friday</td><td>Closed</td><td>1.30pm-5.00pm</td></tr>
 			 </table>

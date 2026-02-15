@@ -56,7 +56,7 @@
   </div>
 </div>
     
-<%--    <script src="/Village_Hall/Weddings/WeddingPhotos.js"></script>
+<%--    <script src="/VillageHall/Weddings/WeddingPhotos.js"></script>
     <script src="/Scripts/ShowPhotos.js"></script>
 
     <div class="row"><script>ShowPhotos();</script></div>

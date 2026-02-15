@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Hall - Hire" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
-  CodeBehind="Hire_of_items.aspx.cs" Inherits="orleton.Village_Hall.Hire_of_items" %>
+  CodeBehind="HireOfItems.aspx.cs" Inherits="orleton.VillageHall.HireOfItems" %>
 
 <asp:Content ContentPlaceHolderID="main" runat="server">
 <div class="row">
@@ -14,7 +14,7 @@
     </div>
     <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="PhotoContainer">
-            <img alt="Orleton village hall" src="/Images/Village_Hall/Small/Orleton Village Hall.jpg" title="Orleton village hall" />
+            <img alt="Orleton village hall" src="/Images/VillageHall/Small/Orleton Village Hall.jpg" title="Orleton village hall" />
         </div>
     </div>
 </div>

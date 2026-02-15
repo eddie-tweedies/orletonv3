@@ -1,12 +1,11 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="orleton.Orleton_Desktop_MasterPage" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" 
+        Inherits="orleton.Orleton_Desktop_MasterPage" %>
 
 <!DOCTYPE html>
 <html lang="en-gb">
 
 <head runat="server">
     <meta http-equiv="content-language" content="en-gb" />
-    <%--Bing Analytics --%>
-    <%--    <meta name="msvalidate.01" content="9DEAB9CD0021C882128A702BB3CF63DA" />--%>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orleton Village, Herefordshire</title>
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -55,9 +54,9 @@
         return `
         <iframe style="border:none; background-color:grey" class="objecthidden" width="680" height="930"
             src="${pmagFile}.pdf#page=1&zoom=80&scrollbar=1&toolbar=0&navpanes=0"
-            /*style="border:none; background-color:grey">*/
         </iframe>
         `;
+            /*style="border:none; background-color:grey">*/
     }
 </script>
 
@@ -123,7 +122,7 @@
                 <a href="/Map/Map.aspx" title="Location">Location</a>
                 <a href="/History/History.aspx" title="History">History</a>
                 <a href="/Churches/Churches.aspx" title="Churches">Churches</a>
-                <a href="/Leisure/Where_to_eat.aspx" title="Eating Out">Eating Out</a>
+                <a href="/Leisure/WhereToEat.aspx" title="Eating Out">Eating Out</a>
                 <a href="/Businesses/PostOffice.aspx" title="Post Office & Stores">Post Office & Stores</a>
                 <a href="http://www.orleton-pc.gov.uk" title="Parish Council" target="_blank">Parish Council</a>
 
@@ -134,8 +133,8 @@
             <div id="dropmenu2_d" class="dropmenudiv_d">
                 <a href="/Leisure/ShowWalk.aspx?Walk=Bircher" title="Bircher Walk">Bircher Walk</a>
                 <a href="/Leisure/ShowWalk.aspx?Walk=Mortimer" title="The Mortimer Trail">Mortimer Trail</a>
-                <a href="/Leisure/Orleton_walks.aspx" title="Walks around Orleton">Orleton Walks</a>
-                <a href="/Memorial_Gardens/Memorial_Gardens.aspx" title="Memorial_Garden">Memorial Garden</a>
+                <a href="/Leisure/OrletonWalks.aspx" title="Walks around Orleton">Orleton Walks</a>
+                <a href="/MemorialGardens/MemorialGardens.aspx" title="Memorial Garden">Memorial Garden</a>
             </div>
 
             <!--Village Life drop down menu -->
@@ -149,18 +148,18 @@
 
             <!--Village Hall drop down menu -->
             <div id="dropmenu4_d" class="dropmenudiv_d">
-                <a href="/Village_Hall/VillageHall.aspx" title="Village Hall Information">Information</a>
-                <a href="/Village_Hall/Location_Map.aspx" title="Location">Location</a>
+                <a href="/VillageHall/VillageHall.aspx" title="Village Hall Information">Information</a>
+                <a href="/VillageHall/Location_Map.aspx" title="Location">Location</a>
                 <a href="/Leisure/ShowWalk.aspx?Walk=VillageHall" title="Gallery">Gallery</a>
-                <a href="/Village_Hall/Layout.aspx" title="Hall Layout">Layout</a>
-                <a href="/Village_Hall/Price_list.aspx" title="Price List">Price List</a>
-                <a href="/Village_Hall/Whats_On.aspx" title="Village Hall Diary">Diary</a>
-                <a href="/Village_Hall/Bookings.aspx" title="Room Booking">Room Booking</a>
-                <a href="/Village_Hall/Hire_of_items.aspx" title="Item Hire">Item Hire</a>
-                <a href="/Village_Hall/Ts-and-Cs.aspx" title="Terms and ConditionsWiFi">Terms & Conditions</a>
+                <a href="/VillageHall/Layout.aspx" title="Hall Layout">Layout</a>
+                <a href="/VillageHall/PriceList.aspx" title="Price List">Price List</a>
+                <a href="/VillageHall/WhatsOn.aspx" title="Village Hall Diary">Diary</a>
+                <a href="/VillageHall/Bookings.aspx" title="Room Booking">Room Booking</a>
+                <a href="/VillageHall/HireOfItems.aspx" title="Item Hire">Item Hire</a>
+                <a href="/VillageHall/TsAndCs.aspx" title="Terms and ConditionsWiFi">Terms & Conditions</a>
             </div>
-            <%--<a href="/Village_Hall/Photos.aspx"         title="OGallery">OGallery</a>--%>
-            <%--<a href="/Village_Hall/VH-WiFi.aspx"        title="WiFi">WiFi</a> --%>
+            <%--<a href="/VillageHall/Photos.aspx"         title="OGallery">OGallery</a>--%>
+            <%--<a href="/VillageHall/VH-WiFi.aspx"        title="WiFi">WiFi</a> --%>
         </asp:ContentPlaceHolder>
 
         <asp:ContentPlaceHolder ID="topmain" runat="server"></asp:ContentPlaceHolder>

@@ -1,7 +1,7 @@
 ﻿using System;
-namespace orleton.Village_Hall
+namespace orleton.VillageHall
 {
-    public partial class Price_list : System.Web.UI.Page
+    public partial class Layout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

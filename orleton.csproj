@@ -236,44 +236,44 @@
     <Content Include="Images\Village\Small\YeOldeHouse.jpg" />
     <Content Include="Images\Village\WarMemorial.jpg" />
     <Content Include="Images\Village\YeOldeHouse.jpg" />
-    <Content Include="Images\Village_Hall\CalendarKeyLarge.png" />
-    <Content Include="Images\Village_Hall\CalendarKeySmall.png" />
-    <Content Include="Images\Village_Hall\John Challis-s.jpg" />
-    <Content Include="Images\Village_Hall\John Challis.jpg" />
-    <Content Include="Images\Village_Hall\Large Hall Portrait-s.png" />
-    <Content Include="Images\Village_Hall\Large Hall Portrait.jpg" />
-    <Content Include="Images\Village_Hall\Orleton village hall.jpg" />
-    <Content Include="Images\Village_Hall\OVH-Logo-L.png" />
-    <Content Include="Images\Village_Hall\OVH-Logo-s.png" />
-    <Content Include="Images\Village_Hall\OVH-Logo.png" />
-    <Content Include="Images\Village_Hall\Playground 1.jpg" />
-    <Content Include="Images\Village_Hall\Playground 2.jpg" />
-    <Content Include="Images\Village_Hall\Small\Orleton village hall.jpg" />
-    <Content Include="Images\Village_Hall\Small\Playground 1.jpg" />
-    <Content Include="Images\Village_Hall\Small\Playground 2.jpg" />
-    <Content Include="Images\Village_Hall\Small\Stage in main hall.jpg" />
-    <Content Include="Images\Village_Hall\Small\Table tennis club in the main hall.JPG" />
-    <Content Include="Images\Village_Hall\Small\Village gathering in small hall.JPG" />
-    <Content Include="Images\Village_Hall\Small\Village hall car park.jpg" />
-    <Content Include="Images\Village_Hall\Stage in main hall.jpg" />
-    <Content Include="Images\Village_Hall\Table tennis club in the main hall.JPG" />
-    <Content Include="Images\Village_Hall\Village gathering in small hall.JPG" />
-    <Content Include="Images\Village_Hall\Village hall car park.jpg" />
-    <Content Include="Images\Village_Hall\Village_Hall_Layout.png" />
-    <Content Include="Images\Village_Hall\Wedding\IMGP3250.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\IMGP3257.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\IMGP3258.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\IMGP3259.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\Main hall set up for wedding.jpg" />
-    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3250.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3257.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3258.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\Small\IMGP3259.JPG" />
-    <Content Include="Images\Village_Hall\Wedding\Small\Main hall set up for wedding.jpg" />
+    <Content Include="Images\VillageHall\CalendarKeyLarge.png" />
+    <Content Include="Images\VillageHall\CalendarKeySmall.png" />
+    <Content Include="Images\VillageHall\John Challis-s.jpg" />
+    <Content Include="Images\VillageHall\John Challis.jpg" />
+    <Content Include="Images\VillageHall\Large Hall Portrait-s.png" />
+    <Content Include="Images\VillageHall\Large Hall Portrait.jpg" />
+    <Content Include="Images\VillageHall\Orleton village hall.jpg" />
+    <Content Include="Images\VillageHall\OVH-Logo-L.png" />
+    <Content Include="Images\VillageHall\OVH-Logo-s.png" />
+    <Content Include="Images\VillageHall\OVH-Logo.png" />
+    <Content Include="Images\VillageHall\Playground 1.jpg" />
+    <Content Include="Images\VillageHall\Playground 2.jpg" />
+    <Content Include="Images\VillageHall\Small\Orleton village hall.jpg" />
+    <Content Include="Images\VillageHall\Small\Playground 1.jpg" />
+    <Content Include="Images\VillageHall\Small\Playground 2.jpg" />
+    <Content Include="Images\VillageHall\Small\Stage in main hall.jpg" />
+    <Content Include="Images\VillageHall\Small\Table tennis club in the main hall.JPG" />
+    <Content Include="Images\VillageHall\Small\Village gathering in small hall.JPG" />
+    <Content Include="Images\VillageHall\Small\Village hall car park.jpg" />
+    <Content Include="Images\VillageHall\Stage in main hall.jpg" />
+    <Content Include="Images\VillageHall\Table tennis club in the main hall.JPG" />
+    <Content Include="Images\VillageHall\Village gathering in small hall.JPG" />
+    <Content Include="Images\VillageHall\Village hall car park.jpg" />
+    <Content Include="Images\VillageHall\Village_Hall_Layout.png" />
+    <Content Include="Images\VillageHall\Wedding\IMGP3250.JPG" />
+    <Content Include="Images\VillageHall\Wedding\IMGP3257.JPG" />
+    <Content Include="Images\VillageHall\Wedding\IMGP3258.JPG" />
+    <Content Include="Images\VillageHall\Wedding\IMGP3259.JPG" />
+    <Content Include="Images\VillageHall\Wedding\Main hall set up for wedding.jpg" />
+    <Content Include="Images\VillageHall\Wedding\Small\IMGP3250.JPG" />
+    <Content Include="Images\VillageHall\Wedding\Small\IMGP3257.JPG" />
+    <Content Include="Images\VillageHall\Wedding\Small\IMGP3258.JPG" />
+    <Content Include="Images\VillageHall\Wedding\Small\IMGP3259.JPG" />
+    <Content Include="Images\VillageHall\Wedding\Small\Main hall set up for wedding.jpg" />
     <Content Include="Leisure\BakersArms.jpg" />
-    <Content Include="Leisure\Orleton_walks.aspx" />
+    <Content Include="Leisure\OrletonWalks.aspx" />
     <Content Include="Leisure\ShowWalk.aspx" />
-    <Content Include="Leisure\Where_to_eat.aspx" />
+    <Content Include="Leisure\WhereToEat.aspx" />
     <Content Include="Magazine\Booklet.aspx" />
     <Content Include="Magazine\Magazine Previous Copy.aspx" />
     <Content Include="Magazine\Magazine.aspx" />
@@ -281,7 +281,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Memorial_Gardens\Memorial_Gardens.aspx" />
+    <Content Include="MemorialGardens\MemorialGardens.aspx" />
     <Content Include="News.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -339,8 +339,8 @@
     <Content Include="Images\Parish_Plan\Orleton_Parish_Plan.pdf" />
     <Content Include="Images\Recycling leaflet 2016 e-friendly.pdf" />
     <Content Include="Images\Village\Cyber Crime Guidance.pdf" />
-    <Content Include="Images\Village_Hall\LOGO.docx.exclude" />
-    <Content Include="Images\Village_Hall\Plan of the hall.pdf" />
+    <Content Include="Images\VillageHall\LOGO.docx.exclude" />
+    <Content Include="Images\VillageHall\Plan of the hall.pdf" />
     <Content Include="Parish_Council\Garden bonfires - Information.pdf" />
     <Content Include="History\ON THE TRAIL OF THE MORTIMERS.docx" />
     <Content Include="Leisure\Orleton Walks 1A.pdf" />
@@ -363,19 +363,19 @@
     <Content Include="VillageLife\OGNS\OGNS-2025-P4-s.jpg" />
     <Content Include="VillageLife\OGNS\OGNS-2025-P4.jpg" />
     <Content Include="VillageLife\Schools\Schools.aspx" />
-    <Content Include="Village_Hall\Bookings.aspx" />
-    <Content Include="Village_Hall\Hire_of_items.aspx" />
-    <Content Include="Village_Hall\Layout.aspx" />
-    <Content Include="Village_Hall\Location_Map.aspx" />
-    <Content Include="Village_Hall\Price_list.aspx" />
-    <Content Include="Village_Hall\Ts-and-Cs.aspx" />
-    <Content Include="Village_Hall\VillageHall.aspx" />
-    <Content Include="Village_Hall\Wedding\image295.jpg" />
-    <Content Include="Village_Hall\Wedding\image298.jpg" />
-    <Content Include="Village_Hall\Wedding\small\IMGP3259.JPG" />
-    <Content Include="Village_Hall\Wedding\small\Main hall set up for wedding.jpg" />
-    <Content Include="Village_Hall\Wedding\Wedding.aspx" />
-    <Content Include="Village_Hall\Whats_On.aspx" />
+    <Content Include="VillageHall\Bookings.aspx" />
+    <Content Include="VillageHall\HireOfItems.aspx" />
+    <Content Include="VillageHall\Layout.aspx" />
+    <Content Include="VillageHall\Location_Map.aspx" />
+    <Content Include="VillageHall\PriceList.aspx" />
+    <Content Include="VillageHall\TsAndCs.aspx" />
+    <Content Include="VillageHall\VillageHall.aspx" />
+    <Content Include="VillageHall\Wedding\image295.jpg" />
+    <Content Include="VillageHall\Wedding\image298.jpg" />
+    <Content Include="VillageHall\Wedding\small\IMGP3259.JPG" />
+    <Content Include="VillageHall\Wedding\small\Main hall set up for wedding.jpg" />
+    <Content Include="VillageHall\Wedding\Wedding.aspx" />
+    <Content Include="VillageHall\WhatsOn.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -402,8 +402,8 @@
       <DependentUpon>showpicview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Leisure\Orleton_walks.aspx.cs">
-      <DependentUpon>Orleton_walks.aspx</DependentUpon>
+    <Compile Include="Leisure\OrletonWalks.aspx.cs">
+      <DependentUpon>OrletonWalks.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Leisure\ShowWalk.aspx.cs">
@@ -413,8 +413,8 @@
     <Compile Include="Leisure\ShowWalk.aspx.designer.cs">
       <DependentUpon>ShowWalk.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Leisure\Where_to_eat.aspx.cs">
-      <DependentUpon>Where_to_eat.aspx</DependentUpon>
+    <Compile Include="Leisure\WhereToEat.aspx.cs">
+      <DependentUpon>WhereToEat.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Magazine\Booklet.aspx.cs">
@@ -446,8 +446,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Memorial_Gardens\Memorial_Gardens.aspx.cs">
-      <DependentUpon>Memorial_Gardens.aspx</DependentUpon>
+    <Compile Include="MemorialGardens\MemorialGardens.aspx.cs">
+      <DependentUpon>MemorialGardens.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="News.aspx.cs">
@@ -475,40 +475,40 @@
       <DependentUpon>Schools.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Bookings.aspx.cs">
+    <Compile Include="VillageHall\Bookings.aspx.cs">
       <DependentUpon>Bookings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Hire_of_items.aspx.cs">
-      <DependentUpon>Hire_of_items.aspx</DependentUpon>
+    <Compile Include="VillageHall\HireOfItems.aspx.cs">
+      <DependentUpon>HireOfItems.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Layout.aspx.cs">
+    <Compile Include="VillageHall\Layout.aspx.cs">
       <DependentUpon>Layout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Location_Map.aspx.cs">
+    <Compile Include="VillageHall\Location_Map.aspx.cs">
       <DependentUpon>Location_Map.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Price_list.aspx.cs">
-      <DependentUpon>Price_list.aspx</DependentUpon>
+    <Compile Include="VillageHall\PriceList.aspx.cs">
+      <DependentUpon>PriceList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Ts-and-Cs.aspx.cs">
-      <DependentUpon>Ts-and-Cs.aspx</DependentUpon>
+    <Compile Include="VillageHall\TsAndCs.aspx.cs">
+      <DependentUpon>TsAndCs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\VillageHall.aspx.cs">
+    <Compile Include="VillageHall\VillageHall.aspx.cs">
       <DependentUpon>VillageHall.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Wedding\Wedding.aspx.cs">
+    <Compile Include="VillageHall\Wedding\Wedding.aspx.cs">
       <DependentUpon>Wedding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Village_Hall\Whats_On.aspx.cs">
-      <DependentUpon>Whats_On.aspx</DependentUpon>
+    <Compile Include="VillageHall\WhatsOn.aspx.cs">
+      <DependentUpon>WhatsOn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
@@ -527,11 +527,11 @@
     <Content Include="VillageLife\OGNS\OGNS-P4-s.jpg.exclude" />
     <Content Include="VillageLife\OGNS\OGNS-P4.jpg.exclude" />
     <Content Include="Surgery\Performing a rescue.pdf" />
-    <Content Include="Village_Hall\OVH Facilities Equipment Tech Data 2024.pdf" />
-    <Content Include="Village_Hall\Rates non-regular users 2024-2025.pdf" />
-    <Content Include="Village_Hall\Village Hall governing document 2016.pdf" />
-    <Content Include="Village_Hall\Booking package 2024.pdf" />
-    <Content Include="Village_Hall\Rates 2025-2026.pdf" />
+    <Content Include="VillageHall\OVH Facilities Equipment Tech Data 2024.pdf" />
+    <Content Include="VillageHall\Rates non-regular users 2024-2025.pdf" />
+    <Content Include="VillageHall\Village Hall governing document 2016.pdf" />
+    <Content Include="VillageHall\Booking package 2024.pdf" />
+    <Content Include="VillageHall\Rates 2025-2026.pdf" />
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />

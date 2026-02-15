@@ -1,11 +1,12 @@
 ﻿using System;
-namespace orleton.Village_Hall
+using System.Web.UI;
+
+namespace orleton.Leisure
 {
-    public partial class Whats_On : System.Web.UI.Page
+    public partial class OrletonWalks : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

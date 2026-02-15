@@ -1,7 +1,8 @@
 ﻿using System;
-namespace orleton.Village_Hall
+using System.Web.UI;
+namespace orleton.MemorialGardens
 {
-    public partial class Ts_and_Cs : System.Web.UI.Page
+    public partial class MemorialGardens : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

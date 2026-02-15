@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Orleton - Restaurants" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
-	CodeBehind="Where_to_eat.aspx.cs" Inherits="orleton.Leisure.Where_to_eat" %>
+	CodeBehind="WhereToEat.aspx.cs" Inherits="orleton.Leisure.WhereToEat" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
     <h1>Pubs &amp; Restaurants</h1>

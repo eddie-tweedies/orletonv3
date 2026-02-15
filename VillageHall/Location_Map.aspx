@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Hall - Location" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-  CodeBehind="Location_Map.aspx.cs" Inherits="orleton.Village_Hall.Location_Map" %>
+  CodeBehind="Location_Map.aspx.cs" Inherits="orleton.VillageHall.Location_Map" %>
 
 <asp:Content ID="HomeContent" ContentPlaceHolderID="main" runat="Server">
 <h1>Orleton Village Hall - Location Map</h1>

@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Web.UI;
-namespace orleton.Memorial_Gardens
+namespace orleton.VillageHall
 {
-    public partial class Memorial_Gardens : Page
+    public partial class VillageHall : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

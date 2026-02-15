@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Orleton - Memorial Gardens" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-  CodeBehind="Memorial_Gardens.aspx.cs" Inherits="orleton.Memorial_Gardens.Memorial_Gardens" %>
+  CodeBehind="MemorialGardens.aspx.cs" Inherits="orleton.MemorialGardens.MemorialGardens" %>
 
 <asp:Content ContentPlaceHolderID="main" runat="server">
   <h1>Orleton Memorial Garden</h1>

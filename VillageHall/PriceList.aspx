@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Hall - Prices" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
-  CodeBehind="Price_list.aspx.cs" Inherits="orleton.Village_Hall.Price_list" %>
+  CodeBehind="PriceList.aspx.cs" Inherits="orleton.VillageHall.PriceList" %>
 
 <asp:Content ContentPlaceHolderID="main" runat="server">
 
@@ -10,13 +10,13 @@
   <div class="col-md-10 col-sm-11 col-xs-11">
          <p><a href="Bookings.aspx">Enquire about a booking here</a>.</p>
          <p>If the price list does not display properly below, or you wish to print it out, please 
-             <a href="/Village_Hall/Rates%202025-2026.pdf" target="_blank">click here</a>
+             <a href="/VillageHall/Rates%202025-2026.pdf" target="_blank">click here</a>
              to view it on a separate page.</p>
      <div>
 
 <p id="BookletContainer"></p>
 <script>
-    document.getElementById("BookletContainer").innerHTML = showThisMag("/Village_Hall/Rates%202025-2026");
+    document.getElementById("BookletContainer").innerHTML = showThisMag("/VillageHall/Rates%202025-2026");
 </script>
 
 
@@ -46,28 +46,28 @@
  </div>
  <div class="col-md-2 col-sm-2 col-xs-11 photo-gallery">
          <figure>
-        <img src="/Images/Village_Hall/Small/Orleton Village Hall.jpg" title="Orleton village hall" alt="View of Orleton Village Hall exterior" />
+        <img src="/Images/VillageHall/Small/Orleton Village Hall.jpg" title="Orleton village hall" alt="View of Orleton Village Hall exterior" />
         <figcaption>Orleton Village Hall</figcaption>
     </figure>
     <figure>
-        <img src="/Images/Village_Hall/Small/Stage%20in%20main%20hall.jpg" alt="Stage in the main hall of Orleton Village Hall" />
+        <img src="/Images/VillageHall/Small/Stage%20in%20main%20hall.jpg" alt="Stage in the main hall of Orleton Village Hall" />
         <figcaption>Stage in Main Hall</figcaption>
     </figure>
     <figure>
-        <img src="/Images/Village_Hall/Small/Village%20hall%20car%20park.jpg" alt="Car park area of Orleton Village Hall" />
+        <img src="/Images/VillageHall/Small/Village%20hall%20car%20park.jpg" alt="Car park area of Orleton Village Hall" />
         <figcaption>Village Hall Car Park</figcaption>
     </figure>
 </div>
 
 <%-- <div class="col-md-2 col-sm-2 col-xs-11">
     <p class="PhotoContainer">
-        <img src="/Images/Village_Hall/Small/Orleton Village Hall.jpg" title="Orleton village hall" alt="Orleton village hall" />
+        <img src="/Images/VillageHall/Small/Orleton Village Hall.jpg" title="Orleton village hall" alt="Orleton village hall" />
     </p>
     <p class="PhotoContainer">
-        <img src="/Images/Village_Hall/Small/Stage%20in%20main%20hall.jpg" />
+        <img src="/Images/VillageHall/Small/Stage%20in%20main%20hall.jpg" />
     </p>
     <p class="PhotoContainer">
-        <img src="/Images/Village_Hall/Small/Village%20hall%20car%20park.jpg" />
+        <img src="/Images/VillageHall/Small/Village%20hall%20car%20park.jpg" />
     </p>
 
  </div>--%>

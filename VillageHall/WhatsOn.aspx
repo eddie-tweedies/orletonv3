@@ -1,12 +1,12 @@
 ﻿<%@ Page Title="Hall - Diary" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-  CodeBehind="Whats_On.aspx.cs" Inherits="orleton.Village_Hall.Whats_On" %>
+  CodeBehind="WhatsOn.aspx.cs" Inherits="orleton.VillageHall.WhatsOn" %>
 
 <asp:Content ID="HomeContent" ContentPlaceHolderID="main" runat="Server">
 
 	<h1>Orleton Village Hall Bookings</h1>
-	<p>Use the <a href="/Village_Hall/Bookings.aspx">Hall Booking Form</a> to request a booking.</p>
-	<p><img src="/Images/Village_Hall/CalendarKeyLarge.png" alt="Large hall = Red background" />&nbsp;
-      <img src="/Images/Village_Hall/CalendarKeySmall.png" alt="Small hall = Green background" /></p>
+	<p>Use the <a href="/VillageHall/Bookings.aspx">Hall Booking Form</a> to request a booking.</p>
+	<p><img src="/Images/VillageHall/CalendarKeyLarge.png" alt="Large hall = Red background" />&nbsp;
+      <img src="/Images/VillageHall/CalendarKeySmall.png" alt="Small hall = Green background" /></p>
 
 <iframe 
 	src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;

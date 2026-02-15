@@ -25,7 +25,7 @@
         <p>
             <span class="red bold">New to Orleton<br /></span>
             <span class="newstext">Local volunteers have published a booklet to help you find your way around</span><br />
-            <span class="newslink""><a href="Magazine/Booklet.aspx" target="_parent">Download it here.</a></span>
+            <span class="newslink"><a href="Magazine/Booklet.aspx" target="_parent">Download it here.</a></span>
         </p>
         <p>
             <span class="red bold">Herefordshire Talk Communiy<br /></span>
@@ -76,7 +76,7 @@
 		from which to view the beautiful surrounding countryside.</p>
 	<p>It is a thriving, vibrant community with a <a href="/Businesses/PostOffice.aspx">Shop/Post Office</a>,
 		a <a href="http://www.orleton.hereford.sch.uk/" target="_blank">Primary School</a>, a Golf Society,
-		two pubs, a Doctor’s Surgery and a very well equipped <a href="/Village_Hall/VillageHall.aspx">Village Hall</a>
+		two pubs, a Doctor’s Surgery and a very well equipped <a href="/VillageHall/VillageHall.aspx">Village Hall</a>
 		which is home to a variety of clubs and societies including a Women&#39;s Institute, Wednesday Coffee Mornings, youth organisations, 
 		Evergreens (for older residents of the village),  Table Tennis Club, 
 		<a href="http://www.orletongardeningclub.co.uk/" target="_blank">Gardening Club</a> and many more.</p>

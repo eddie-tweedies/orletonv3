@@ -1,10 +1,11 @@
 ﻿using System;
-namespace orleton.Village_Hall
+namespace orleton.VillageHall
 {
-    public partial class Bookings : System.Web.UI.Page
+    public partial class HireOfItems : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
         }
     }
 }
