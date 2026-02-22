@@ -1,6 +1,6 @@
 ﻿using System;
 
-public partial class Magazine_Booklet : System.Web.UI.Page
+public partial class Booklet : System.Web.UI.Page
 {
     public string MagFileName;
     public string MagDateMonth;

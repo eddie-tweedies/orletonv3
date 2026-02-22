@@ -1,7 +1,5 @@
 ﻿<%@ Page Title="Welcome to Orleton Village" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
 	  CodeBehind="Default.aspx.cs" Inherits="orleton.Default" %>
-<%--<%@ Page Title="Welcome to Orleton Village" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
-	  CodeBehind="Default.aspx.cs" Inherits="Default" %>--%>
 
 <asp:Content ContentPlaceHolderID="main" runat="Server">
 

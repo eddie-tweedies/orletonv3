@@ -9,8 +9,8 @@ namespace orleton.Leisure
     public partial class ShowWalk : Page
     {
         public string PG = "Bircher";  //Section
-        public OleDbConnection con;
-        public string constr;
+        //public OleDbConnection con;
+        //public string constr;
 
         protected void Page_Load(object sender, EventArgs e)
         {
