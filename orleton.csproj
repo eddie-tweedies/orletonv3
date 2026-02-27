@@ -350,6 +350,8 @@
     <Content Include="Leisure\Orleton Walks 3A.pdf" />
     <Content Include="Leisure\Orleton Walks 3Az.pdf" />
     <Content Include="Leisure\Orleton Walks 3B.pdf" />
+    <Content Include="BookletFiles\Mag March 2026 booklet.pdf" />
+    <Content Include="BookletFiles\Mag March 2026.pdf" />
     <None Include="bundleconfig.json" />
     <Content Include="Surgery\Surgery.aspx" />
     <Content Include="VillageLife\Clubs\Clubs.aspx" />
