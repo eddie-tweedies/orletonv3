@@ -16,8 +16,8 @@
    	This is a booklet .pdf document. It will print as a 2-up A5 format on A4 paper.
 	It can be printed double sided.</p>
 
-<%--<p>The February 2026 copy of the Magazine can be found 
-    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20February%202026&MagMonth=February%202026">here</a>.</p>--%>
+<p>The February 2026 copy of the Magazine can be found 
+    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20February%202026&MagMonth=February%202026">here</a>.</p>
 <p>The January 2026 copy of the Magazine can be found 
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20January%202026&MagMonth=January%202026">here</a>.</p>
 <p>The December 2025 copy of the Magazine can be found 
