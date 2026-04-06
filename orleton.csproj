@@ -352,8 +352,8 @@
     <Content Include="Leisure\Orleton Walks 3B.pdf" />
     <Content Include="BookletFiles\Mag March 2026 booklet.pdf" />
     <Content Include="BookletFiles\Mag March 2026.pdf" />
-    <Content Include="BookletFiles\Mag April 2026 booklet.pdf" />
-    <Content Include="BookletFiles\Mag April 2026.pdf" />
+    <Content Include="BookletFiles\Mag April 26 V2 booklet.pdf" />
+    <Content Include="BookletFiles\Mag April 26 V2.pdf" />
     <None Include="bundleconfig.json" />
     <Content Include="Surgery\Surgery.aspx" />
     <Content Include="VillageLife\Clubs\Clubs.aspx" />
