@@ -57,7 +57,7 @@
 				All aspects of plumbing and heating. Fitted bathrooms, tiling.</em>
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-10">
-			<strong>07854 415270<br />07967 856051</strong><br />
+			<strong>07854 415270<br />07967 856051 Office</strong><br />
 			<a href="mailto:bpplumbingandheating@outlook.com">bpplumbingandheating@outlook.com</a>
 		</div>
 	</div>

@@ -20,9 +20,9 @@
 <p>Please click on the issue below to see its contents.</p>
 
 <div class="previous-issues">
-<%--    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20April%2026%20V2&MagMonth=April%202026" 
+    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20April%2026%20V2&MagMonth=April%202026" 
        class="issue-link">April 2026</a>
-    <span class="separator">|</span>--%>
+    <span class="separator">|</span>
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20March%202026&MagMonth=March%202026" 
        class="issue-link">March 2026</a>
     <span class="separator">|</span>

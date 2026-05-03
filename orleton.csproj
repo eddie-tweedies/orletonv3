@@ -354,6 +354,8 @@
     <Content Include="BookletFiles\Mag March 2026.pdf" />
     <Content Include="BookletFiles\Mag April 26 V2 booklet.pdf" />
     <Content Include="BookletFiles\Mag April 26 V2.pdf" />
+    <Content Include="BookletFiles\Mag May 2026 booklet.pdf" />
+    <Content Include="BookletFiles\Mag May 2026.pdf" />
     <None Include="bundleconfig.json" />
     <Content Include="Surgery\Surgery.aspx" />
     <Content Include="VillageLife\Clubs\Clubs.aspx" />
