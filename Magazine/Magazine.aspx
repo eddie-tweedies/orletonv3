@@ -20,7 +20,10 @@
 <p>Please click on the issue below to see its contents.</p>
 
 <div class="previous-issues">
-    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20April%2026%20V2&MagMonth=April%202026" 
+    <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20May%202026&MagMonth=May%202026" 
+       class="issue-link">May 2026</a>
+   <span class="separator">|</span>
+   <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20April%2026%20V2&MagMonth=April%202026" 
        class="issue-link">April 2026</a>
     <span class="separator">|</span>
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20March%202026&MagMonth=March%202026" 
@@ -34,9 +37,9 @@
     <span class="separator">|</span>
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20December%2025&MagMonth=December%202025" 
        class="issue-link">December 2025</a>
-    <span class="separator">|</span>
+<%--    <span class="separator">|</span>
     <a href="/Magazine/Magazine%20Previous%20Copy.aspx?MagFile=/BookletFiles/Mag%20Nov%2025&MagMonth=November%202025" 
-       class="issue-link">November 2025</a>
+       class="issue-link">November 2025</a>--%>
 </div>
 <br />
 
