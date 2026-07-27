@@ -10,13 +10,13 @@
   <div class="col-md-10 col-sm-11 col-xs-11">
          <p><a href="Bookings.aspx">Enquire about a booking here</a>.</p>
          <p>If the price list does not display properly below, or you wish to print it out, please 
-             <a href="/VillageHall/Rates%202025-2026.pdf" target="_blank">click here</a>
+             <a href="/VillageHall/Public hire 2026-2027.pdf" target="_blank">click here</a>
              to view it on a separate page.</p>
      <div>
 
 <p id="BookletContainer"></p>
 <script>
-    document.getElementById("BookletContainer").innerHTML = showThisMag("/VillageHall/Rates%202025-2026");
+    document.getElementById("BookletContainer").innerHTML = showThisMag("/VillageHall/Public hire 2026-2027");
 </script>
 
 

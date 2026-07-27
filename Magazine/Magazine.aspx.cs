@@ -9,8 +9,8 @@
  
         protected void Page_Load(object sender, EventArgs e)
         {
-            MagFileName = "/BookletFiles/Mag%20July%202026";
-            MagDateMonth = "July%202026";
+            MagFileName = "/BookletFiles/Mag%20Aug%202026";
+            MagDateMonth = "August%202026";
         }
 
     }

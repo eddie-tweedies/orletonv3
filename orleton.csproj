@@ -360,6 +360,8 @@
     <Content Include="BookletFiles\Mag June 2026.pdf" />
     <Content Include="BookletFiles\Mag July 2026.pdf" />
     <Content Include="BookletFiles\Mag July 2026 booklet.pdf" />
+    <Content Include="BookletFiles\Mag Aug 2026.pdf" />
+    <Content Include="BookletFiles\Mag Aug 2026 booklet.pdf" />
     <None Include="bundleconfig.json" />
     <Content Include="Surgery\Surgery.aspx" />
     <Content Include="VillageLife\Clubs\Clubs.aspx" />
@@ -538,10 +540,8 @@
     <Content Include="VillageLife\OGNS\OGNS-P4.jpg.exclude" />
     <Content Include="Surgery\Performing a rescue.pdf" />
     <Content Include="VillageHall\OVH Facilities Equipment Tech Data 2024.pdf" />
-    <Content Include="VillageHall\Rates non-regular users 2024-2025.pdf" />
     <Content Include="VillageHall\Village Hall governing document 2016.pdf" />
     <Content Include="VillageHall\Booking package 2024.pdf" />
-    <Content Include="VillageHall\Rates 2025-2026.pdf" />
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
@@ -567,6 +567,7 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.1.min.map" />
+    <Content Include="VillageHall\Public hire 2026-2027.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
